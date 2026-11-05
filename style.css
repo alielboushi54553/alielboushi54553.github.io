@@ -1,0 +1,152 @@
+/* My green heading color on white is 9.14:1; dark body text on my light background is 12.27:1. Both pass WCAG AA for normal text. */
+
+/* Set the page's background, main text color, and readable default text. */
+body {
+  margin: 0;
+  background-color: #f3f7f4;
+  color: #24332b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Give the page headings a different font from the body text. */
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* Make my name stand out at the top. */
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+/* Give each section heading an accent color and separator. */
+h2 {
+  color: #185235;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #c9ded1;
+  padding-bottom: 8px;
+  margin-top: 36px;
+}
+
+/* Keep paragraphs evenly spaced. */
+p {
+  margin: 12px 0 20px;
+}
+
+/* Make my first sentence more noticeable. */
+.intro {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Highlight the important bold word. */
+strong {
+  color: #185235;
+  font-weight: 700;
+}
+
+/* Make links easy to recognize and read. */
+a {
+  color: #185235;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Remove the underline when a pointer is over a link. */
+a:hover {
+  text-decoration: none;
+}
+
+/* Keep keyboard focus visible for accessibility. */
+a:focus-visible {
+  outline: 3px solid #b77b00;
+  outline-offset: 4px;
+}
+
+/* Add a full-width colored header with centered white text. */
+.site-header {
+  background-color: #185235;
+  color: #ffffff;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+/* Show the short tagline in spaced-out capitals. */
+.tagline {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+  word-spacing: 3px; /* Add a little extra room between tagline words. */
+}
+
+/* Keep the main content centered in an easy-to-read column. */
+.container {
+  max-width: 760px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+/* Give the facts card a border, accent stripe, rounded edges, and shadow. */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #c9ded1;
+  border-left: 6px solid #185235;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 32px 0;
+  box-shadow: 0 5px 14px rgba(24, 82, 53, 0.12);
+}
+
+/* Keep the card title close to the facts below it. */
+.card h3 {
+  color: #185235;
+  font-size: 1.35rem;
+  margin: 0 0 12px;
+}
+
+/* Make the email link look like a button. */
+.button {
+  display: inline-block;
+  background-color: #185235;
+  color: #ffffff;
+  padding: 0.65em 1.2em;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+/* Darken the email button when someone hovers over it. */
+.button:hover {
+  background-color: #103c27;
+  text-decoration: none;
+}
+
+/* Use square bullets with consistent indentation. */
+ul {
+  list-style-type: square;
+  padding-left: 26px;
+}
+
+/* Add breathing room between list items. */
+li {
+  margin-bottom: 9px;
+}
+
+/* Separate the footer from the rest of the page. */
+.site-footer {
+  border-top: 1px solid #c9ded1;
+  padding: 20px 24px;
+  text-align: center;
+  color: #526158;
+  font-size: 0.9rem;
+}
+
+/* Prevent the footer paragraph from adding unnecessary space. */
+.site-footer p {
+  margin: 0;
+}
